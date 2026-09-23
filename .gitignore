@@ -1,9 +1,29 @@
+# Python
 .venv/
+.venv-linux/
+airflow-venv/
 __pycache__/
 *.pyc
+
+# Environment / secrets
 .env
+*.env
+
+# IDE
 .vscode/
+.idea/
+
+# Data lake - generated data
 data/raw/
 data/processed/
-*.log
+data/bronze/
+data/silver/
+
+# Airflow
+airflow/logs/
+airflow/*.db
+airflow/*.db-journal
+
+# OS files
 .DS_Store
+Thumbs.db
